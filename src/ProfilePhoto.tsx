@@ -6,7 +6,7 @@ import { profile } from "./content";
 export default function ProfilePhoto() {
   const [failed, setFailed] = useState(false);
   return (
-    <div className="profile-photo">
+    <div className={`profile-photo${profile.photo && !failed ? " has-photo" : ""}`}>
       {profile.photo && !failed && (
         <img
           src={profile.photo}

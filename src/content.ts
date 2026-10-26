@@ -2,7 +2,7 @@ export const profile = {
   name: "Allen Roldan",
   title: "CRM & Operations Virtual Assistant | AI Automation Specialist",
   upworkUrl: "",
-  photo: "", // Place an image in public/ and use './profile.jpg'.
+  photo: "./profile.png", // Replace this asset to update the portrait.
 };
 export function approvedUpworkUrl(value: string): string | null {
   try {
